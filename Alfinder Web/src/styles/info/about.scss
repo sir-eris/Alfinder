@@ -1,0 +1,36 @@
+.about-landing {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    width: 100vw;
+    padding-top: 80px;
+    margin-bottom: 40px;
+
+    .about-landing-container {
+        margin-left: 100px;
+        margin-bottom: 80px;
+    }
+
+    h1 {
+        font-size: 20px;
+        letter-spacing: 7px;
+        margin-bottom: 12px;
+        color: rgb(85, 85, 85);
+    }
+
+    h2 {
+        text-align: left;
+        color: #3c2d64;
+        font-weight: 400;
+        font-size: 54px;
+        line-height: 1.2;
+        padding-right: 50px;
+        margin-bottom: 20px;
+    }
+
+    h5 {
+        color: #261F3C;
+        font-size: 20px;
+        font-weight: 500;
+    }
+}

@@ -1,0 +1,183 @@
+#dashboard {
+    width: 80%;
+    min-width: 900px;
+    min-height: 600px;
+    margin: 20px auto;
+
+    .title {
+        margin: 10px 0 30px;
+        
+        p {
+            font-size: 22px;
+            font-weight: 600;
+        }
+    }
+    
+    .container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .container.actions {
+        a {
+            margin: 0 5px 40px;
+        }
+
+        .action-item {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 270px;
+            height: 270px;
+            margin: 0 0 30px;
+            text-align: center;
+            color: #fff;
+            border-radius: 70px;
+            background: linear-gradient(310deg, rgba(60, 45, 105, 1) 0%, rgba(103, 85, 164, 1) 53%, rgba(175, 166, 207, 1) 100%);
+        }
+
+        .action-item-text {
+            padding: 0 32px;
+            text-transform: capitalize;
+            font-size: 28px;
+            font-weight: 700;
+            line-height: 1.1;
+            margin-bottom: 10px;
+        }
+
+        .action-item.placeholder {
+            background: rgb(45,45,45);
+            background: linear-gradient(310deg, rgba(45,45,45,1) 0%, rgba(119,119,119,1) 53%, rgba(205,205,205,1) 100%);
+        }
+    }
+
+    .container.request {
+        width: 100%;
+
+        .container-title {
+            margin-bottom: 35px;
+
+            h5 {
+                font-size: 24px;
+                font-weight: 400;
+            }
+
+            p {
+                color: #777;
+                font-weight: 500;
+            }
+        }
+
+        .form {
+            width: 100%;
+
+            .row {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                align-items: flex-start;
+            }
+
+            .input-container {
+                width: 100%;
+                margin-bottom: 30px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+
+                label {
+                    display: block;
+                    margin-bottom: 11px;
+                    margin-left: 4px;
+                    font-weight: 500;
+
+                    span {
+                        color: red;
+                    }
+                }
+                .input {
+                    border: 1px solid #ddd;
+                    color: #000;
+                }
+            }
+            .input-container.tw {
+                width: 47%;
+            }
+            .input-container.th {
+                width: 30%;
+            }
+        }
+    }
+
+    .container.pendings {
+        padding: 20px 40px;
+        margin-bottom: 40px;
+        border-radius: 40px;
+        border: 1px solid #ddd;
+        
+        .row {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin-bottom: 20px;
+
+            .pending-item {
+                width: 30%;
+                text-align: left;
+
+                h6 {
+                    margin: 0;
+                    font-size: 13px;
+                }
+
+                p {
+                    font-size: 14px;
+                }
+            }
+        }
+
+        .results {
+            .result-item {
+                .details {
+                    margin-bottom: 7px;
+
+                    p {
+                        font-weight: 600;
+                        font-size: 15px;
+                        color: #333;
+                    }
+                }
+                h6 {
+                    margin: 0 0 4px;
+                    font-size: 24px;
+                }
+            }
+        }
+    }
+}
+
+.empty-container {
+    width: 100%;
+    height: 70vh;
+    min-height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    p {
+        font-size: 26px;
+        font-weight: 500;
+        margin-bottom: 14px;
+    }
+}
+
+
+
+

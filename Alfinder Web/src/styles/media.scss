@@ -1,0 +1,159 @@
+/* mobile */
+@media (max-width: 700px) {
+  .home-landing,
+  .solutions-landing,
+  .about-landing {
+    padding-top: 45px;
+  }
+
+  .home-landing .home-landing-container {
+    margin-left: 40px;
+  }
+  .home-landing h1 {
+    font-size: 28px;
+    padding-right: 40px;
+  }
+  .home-landing h2 {
+    font-size: 12px;
+    letter-spacing: 5px;
+  }
+  .home-landing h5 {
+    font-size: 15px;
+  }
+  .home-landing .btn-container {
+    margin-left: 40px;
+  }
+  
+  
+  .solutions-landing .solutions-landing-container {
+    margin-left: 40px;
+  }
+  .solutions-landing h1 {
+    font-size: 28px;
+  }
+  .solutions-landing h2 {
+    font-size: 16px;
+    letter-spacing: 5px;
+  }
+  .solutions-landing h5 {
+    font-size: 15px;
+  }
+  
+  .about-landing .about-landing-container {
+    margin-left: 40px;
+  }
+  .about-landing h1 {
+    font-size: 16px;
+    letter-spacing: 5px;
+  }
+  .about-landing h2 {
+    font-size: 28px;
+  }
+  .about-landing h5 {
+    font-size: 15px;
+  }
+
+  .demo-landing .container-title h2 {
+    font-size: 16px;
+    letter-spacing: 5px;
+  }
+  .demo-landing .container-title h1 {
+    font-size: 28px;
+  }
+  .demo-landing .container-title h5 {
+    font-size: 15px;
+  }
+
+  .demo-landing .form .row {
+    flex-direction: column;
+  }
+  .demo-landing .form .row .input-container {
+    width: 100%;
+  }
+
+  .catch-sec {
+    margin-bottom: 100px;
+  }
+
+  .catch-sec .sec-title,
+  .options .sec-title {
+    font-size: 20px;
+    max-width: 80%;
+  }
+
+  .options-text-container {
+    width: 140px;
+    height: 140px;
+    margin: 0 10px 30px;
+    border-radius: 45px;
+  }
+
+  .options-text-container .option-text {
+    padding: 0 10px;
+    font-size: 16px;
+  }
+  .options-text-container .option-subtitle {
+    font-size: 12px;
+    line-height: 1.2;
+  }
+
+  .aspect-item-icons {
+    display: none;
+  }
+}
+
+/* tablet */
+@media (min-width: 700px) and (max-width: 1100px) {
+  .home-landing h1 {
+    font-size: 42px;
+  }
+
+  .solutions-landing h1 {
+    font-size: 42px;
+  }
+  .solutions-landing h5 {
+    font-size: 18px;
+  }
+
+  .about-landing h2 {
+    font-size: 42px;
+  }
+  .about-landing h5 {
+    font-size: 18px;
+  }
+
+  .demo-landing .container-title h1 {
+    font-size: 42px;
+  }
+  .demo-landing .container-title h5 {
+    font-size: 18px;
+  }
+
+  .demo-landing .form .row {
+    flex-direction: column;
+  }
+  .demo-landing .form .row .input-container {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1100px) {
+  .landing-container {
+    width: 70vw;
+  }
+  .app-icon {
+    display: none;
+  }
+  .aspects {
+    margin: 0 5% auto;
+  }
+  .aspect-item.sm {
+    width: 100%;
+  }
+  .trust-info-item {
+    width: 100%;
+  }
+  .industry-info-item {
+    width: 100%;
+  }
+}
