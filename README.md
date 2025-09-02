@@ -14,7 +14,7 @@
 - Main Packages: chart.js, noty
 - Integrations: APIs for marketing platforms and analytics services  
 
-<sup>*</sup>Count excludes, .gitignore and other irrelevant files and directories.
+<sup>*</sup>Count excludes contents of .gitignore and other irrelevant files and directories.
 
 **What's Alfinder**
 ---
