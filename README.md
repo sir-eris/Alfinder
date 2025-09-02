@@ -10,7 +10,7 @@
 - Team: 6
 - Timeline: 4yr
 - Languages: PHP, Python, JavaScript
-- Frameworks: Django, React.js
+- Frameworks: Laravel, Django, React.js
 - Main Packages: chart.js, noty
 
 <sup>*</sup>Count excludes, .gitignore and other irrelevant files and directories.
