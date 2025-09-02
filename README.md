@@ -1,6 +1,7 @@
 # Alfinder (_PRIVATE PROJECT_)
 
-> _NOTE: This repo is not meant for public use and is only made available publicly for job acquisition purposes only._
+> _NOTE 1: This repo is not meant for public use and is only made available publicly for job acquisition purposes only._
+> _NOTE 2: This project was developed entirely without AI-assisted tools._
 
 **Project Overview**
 ---
@@ -9,7 +10,7 @@
 - Timeline: 4yr
 - Languages: PHP, Python, JavaScript
 - Frameworks: Django, React.js
-- Main Packages: chart.js, noty, 
+- Main Packages: chart.js, noty
 
 <sup>*</sup>Count excludes, .gitignore and other irrelevant files and directories.
 
