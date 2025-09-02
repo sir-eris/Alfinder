@@ -12,6 +12,7 @@
 - Languages: PHP, Python, JavaScript
 - Frameworks: Laravel, Django, React.js
 - Main Packages: chart.js, noty
+- Integrations: APIs for marketing platforms and analytics services  
 
 <sup>*</sup>Count excludes, .gitignore and other irrelevant files and directories.
 
@@ -32,11 +33,6 @@ Alfinder — *Already. All. Finder.* — is an algorithmic marketing strategy en
 To support raw data pipelines and end-user workflows, Alfinder expanded into several sub-projects, including:  
 - A **React Native mobile application** for strategy access and review  
 - An **e-commerce platform** for related services and product offerings  
-
-### Technology Stack
-- **Backend**: Python, Django  
-- **Frontend**: React.js, React Native  
-- **Integrations**: APIs for marketing platforms and analytics services  
 
 ### Intended Users
 Alfinder is designed for **marketing agencies** and **internal marketing teams**, delivering near-instant, actionable strategies that reduce planning overhead and maximize campaign effectiveness.
