@@ -4,18 +4,6 @@
 
 > _NOTE 2: This project was developed entirely __without AI-assisted__ tools._
 
-**Project Overview**
----
-- LOC: 236,066
-- Team: 6
-- Timeline: 4yr
-- Languages: PHP, Python, JavaScript
-- Frameworks: Laravel, Django, React.js
-- Main Packages: chart.js, noty
-- Integrations: APIs for marketing platforms and analytics services  
-
-<sup>*</sup>Count excludes contents of .gitignore and other irrelevant files and directories.
-
 **What's Alfinder**
 ---
 
